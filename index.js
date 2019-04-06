@@ -27,8 +27,6 @@ let contrasts = {
     }
 }
 
-console.log('Contrast initiated');
-window.setTimeout(() => {
 aw.getPreferences().then(preferences => {
     
     let { backgroundColor, foregroundColor, useAAA } = preferences;
@@ -41,8 +39,6 @@ aw.getPreferences().then(preferences => {
         let tagMatches = document.getElementsByTagName(tag);
         matches.push(...tagMatches);
     });
-
-    console.log('Total matches ', matches.length);
 
     for (let i = 0; i < matches.length; i++) {
         let el = matches[i];
@@ -72,4 +68,3 @@ aw.getPreferences().then(preferences => {
     }
 
 });
-}, 1000);

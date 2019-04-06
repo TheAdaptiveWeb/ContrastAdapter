@@ -5,6 +5,7 @@
     "description": "Finds and fixes contrast issues",
     "script": "index.js",
     "webpackConfig": "./webpack.config.js",
+    "tags": ["color vision"],
     "author": "adamhirst",
     "preferenceSchema": {
         "useAAA": {
@@ -17,13 +18,13 @@
             "friendlyName": "Background color",
             "default": "#000000",
             "type": "text",
-            "description": "The amount of time (in seconds) the video will remain paused for while reading a description. Defaults to 3 seconds."
+            "description": "The background color to set."
         },
         "foregroundColor": {
             "friendlyName": "Text color",
             "default": "#ffffff",
             "type": "text",
-            "description": "The amount of time (in seconds) the video will remain paused for while reading a description. Defaults to 3 seconds."
+            "description": "The foreground color to set."
         }
     }
 }
