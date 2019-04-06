@@ -1,0 +1,17 @@
+{
+    "name": "@adaptiveweb/contrast-adapter",
+    "version": "1.0.0",
+    "description": "Finds and fixes contrast issues",
+    "main": "index.js",
+    "scripts": {
+        "start": "awcli watch",
+        "build": "awcli build"
+    },
+    "author": "adamhirst",
+    "license": "MPL-2.0",
+    "dependencies": {
+        "adaptiveweb": "^1.1.0",
+        "get-contrast-ratio": "^0.1.4",
+        "webpack": "^4.29.6"
+    }
+}
