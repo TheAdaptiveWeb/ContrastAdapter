@@ -62,7 +62,7 @@ aw.getPreferences().then(preferences => {
 
         let contrast = contrasts[(useAAA) ? 'AAA' : 'AA'][large ? 'large' : 'normal'];
 
-        if (getContrastRatio(fg, bg) < contrast && el.innerHTML.trim() === el.innerText.trim()) {
+        if (getContrastRatio(fg, bg) < contrast && el.innerHTML.trim() === el.innerText.trim() && el.innerText.trim() !== '') {
             wrapElement(el, backgroundColor, foregroundColor);
         }
     }
