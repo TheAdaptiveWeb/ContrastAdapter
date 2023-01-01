@@ -12,6 +12,6 @@
     "dependencies": {
         "adaptiveweb": "^1.1.0",
         "get-contrast-ratio": "^0.1.4",
-        "webpack": "^4.29.6"
+        "webpack": "^5.75.0"
     }
 }
